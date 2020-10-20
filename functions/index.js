@@ -163,6 +163,6 @@ app.delete('/api/delete/:id',(req,res)=>{
 
 
 //Export the API to Firebase Cloud
-exports.test = functions.https.onRequest(app);
+exports.app = functions.https.onRequest(app);
 
 
