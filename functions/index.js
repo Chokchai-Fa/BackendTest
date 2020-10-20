@@ -18,7 +18,6 @@ const db = admin.firestore();
 
 
 
-
 /*
 app.get('/get',(req,res)=>{
     return res.status(200).send("Test")
@@ -164,4 +163,6 @@ app.delete('/api/delete/:id',(req,res)=>{
 
 
 //Export the API to Firebase Cloud
-exports.app = functions.https.onRequest(app);
+exports.test = functions.https.onRequest(app);
+
+
